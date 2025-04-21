@@ -1,0 +1,292 @@
+h2.title{
+    font-size: 3.7rem;
+}
+
+.col-sm-6 p.lead{
+    font-size: 1.5rem;
+}
+
+.header-btn{
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 20px;
+}
+
+.about-slider{
+    height: 100% !important;
+}
+
+#experts{
+    padding: 2vw 8vw;
+}
+
+.partner{
+    margin-top: 50px !important;
+}
+
+@media screen and (max-width: 768px){
+    nav{
+        position: relative;
+        overflow: hidden;
+    }
+    nav .navigation ul
+	{
+		position: fixed;
+		top: 0;
+		// right: -220px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		width: 220px;
+		height: 100vh;
+		background: var(--bs-secondary);
+		backdrop-filter: blur(4.5px);
+		border: 1px solid rgba(255, 255, 255, 0.18);
+		transition: 0.3s ease-in;
+	}
+
+    .contact img{
+        margin-bottom: 3rem;
+    }
+
+    .about-header-content{
+        height: 100% !important;
+    }
+    .col-sm-6{ 
+        padding: 0 20px;
+    }
+    h2.title{
+        font-size: 1.6rem;
+        text-align: center;
+        font-weight: 400;
+        line-height: 2.5rem;
+    }
+    .col-sm-6 p.lead{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .header-btn{
+        padding: 15px 12px;
+        font-size: 1.1rem;
+        margin-left: 7px;
+    }
+
+    .btns{
+        display: flex;
+        justify-content: center;
+        margin: 1.5rem 0;
+    }
+
+}
+
+
+
+#contact
+{
+	padding: 6vw 8vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+
+#contact .getin
+{
+	width: 520px;
+}
+
+#contact .getin h2
+{
+	font-weight: 600;
+	line-height: .8;
+	margin-bottom: 16px;
+}
+
+#contact .getin p
+{
+    font-size: 1.3rem;
+	line-height: 35px;
+	margin-bottom: 33px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #e5e4ed;
+}
+
+#contact .getin h3
+{
+	font-weight: 600;
+	line-height: 35px;
+	margin-bottom: 15px;
+}
+
+#contact .getin .getin-details div
+{
+	display: flex;
+}
+
+#contact .getin .getin-details div .get
+{
+	line-height: 35px;
+	margin-right: 20px;
+    font-size: 26px;
+    color: var(--bs-primary)
+}
+
+#contact .getin .getin-details div p
+{
+	border-bottom: none;
+	line-height: 35px;
+	margin-bottom: 15px;
+}
+
+#contact .getin .getin-details .pro-links i
+{
+	margin-right: 8px;
+    background-color: var(--bs-primary);
+	color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#contact .form
+{
+	width: 60%;
+	background: var(--bs-success);
+	padding: 40px;
+	border-radius: 10px;
+}
+
+#contact .form h4
+{
+	line-height: 30px;
+	margin-bottom: 8px;
+}
+
+#contact .form p
+{
+	color: #fff;
+	line-height: 24px;
+	padding-bottom: 25px;
+}
+
+#contact .form .form-row
+{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+#contact .form .form-row input
+{
+	width: 48%;
+	font-size: 20px;
+	font-weight: 400;
+	border-radius: 15px;
+	border: .1px solid #6a6969;
+	background: var(--bs-success);
+	color: #fff;
+	outline: none;
+	padding: 17px 20px;
+	margin-bottom: 20px;
+}
+
+#contact .form .form-col input,
+#contact .form .form-col textarea
+{
+	width: 100%;
+	font-size: 20px;
+	font-weight: 400;
+	border-radius: 15px;
+	border: .1px solid #6a6969;
+	background: var(--bs-success);
+	color: #fff;
+	outline: none;
+	padding: 17px 30px;
+	margin-bottom: 20px;
+}
+
+
+#contact .form button
+{
+	font-size: 1.2rem;
+	padding: 16px 25px;
+	background: var(--bs-primary);
+	border-radius: 15px;
+	outline: none;
+	border: none;
+	font-weight: 500;
+	cursor: pointer;
+	color: #fff;
+}
+
+#map
+{
+	width: 100%;
+	height: 70vh;
+}
+
+#map iframe
+{
+	width: 100%;
+	height: 100%;
+}
+
+
+/*-------------------------------------------------------*/
+/*------------- Tablet screen styling -------------------*/
+/*-------------------------------------------------------*/
+@media screen and (max-width: 769px)
+{
+	#contact
+	{
+		padding: 8vw 4vw;
+	}
+
+	#contact .getin
+	{
+		width: 250px;
+	}
+}
+
+
+/*---------------------------------------------------------*/
+/*-------------- Mobile screen styling -------------------*/
+/*---------------------------------------------------------*/
+@media screen and (max-width: 475px)
+{
+	#contact
+	{
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+
+	#contact .getin
+	{
+		width: 100%;
+		margin-bottom: 30px;
+        margin-top: 10px;
+        padding: 0 30px;
+	}
+
+    #contact h2{
+        text-align: left;
+        font-size: 1.7rem;
+    }
+
+	#contact .form
+	{
+		width: 100%;
+		padding: 40px 30px;
+	}
+
+	#contact .form .form-row
+	{
+		flex-direction: column;
+	}
+
+	#contact .form .form-row input
+	{
+		width: 100%;
+	}
+}
